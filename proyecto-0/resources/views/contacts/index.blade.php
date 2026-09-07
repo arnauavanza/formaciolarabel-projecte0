@@ -18,5 +18,12 @@
             <li>No contacts yet.</li>
         @endforelse
     </ul>
+    {{ $contacts->links() }}
+<style>
+    nav svg {
+        opacity: 0;
+    }
+        
+</style>
 </body>
 </html>
